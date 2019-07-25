@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Dialer"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="Dailer" />
+
+    <item
+        android:id="@+id/main_contact"
+        android:icon="@drawable/ic_dashboard_blackdp"
+        android:title="Main" />
+
+
+
+    <item
+        android:id="@+id/call_log"
+        android:icon="@drawable/ic_call_end_black_24dp"
+        android:title="Call Log"
+        />
+    <item
+        android:id="@+id/Note_keeper"
+        android:icon="@drawable/ic_note_black_24dp"
+        android:title="Note Keeper"
+        />
+    <item
+        android:id="@+id/Time_Line"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="Time Line"
+        />
+</menu>
