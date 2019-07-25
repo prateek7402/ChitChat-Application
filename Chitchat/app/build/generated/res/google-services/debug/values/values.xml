@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">938106662189-e1ijshuaqbn5sd7t1ckrarlbomqvhoqk.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://chitchat-f3916.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">938106662189</string>
+    <string name="google_api_key" translatable="false">AIzaSyCiSDgyirs4J4_GcLhkqFzKFgDsgyNleZU</string>
+    <string name="google_app_id" translatable="false">1:938106662189:android:e58594b33b468ef3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCiSDgyirs4J4_GcLhkqFzKFgDsgyNleZU</string>
+    <string name="google_storage_bucket" translatable="false">chitchat-f3916.appspot.com</string>
+    <string name="project_id" translatable="false">chitchat-f3916</string>
+</resources>
