@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_draw">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please write your encryption key to process"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the encryption key"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/key"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="#0F271B"
+        android:id="@+id/conn"
+        android:text="Continue"
+        android:textColor="#fff"/>
+
+</LinearLayout>

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private String authURLString;
     private String tokenURLString;
     private String access_token = "4179634264.1937496.6bfdfa69485d4fd5890087dbca8ae36e";
-    private static final String URL = "https://api.instagram.com/v1/users/self/media/recent/?access_token=4179634264.1937496.6bfdfa69485d4fd5890087dbca8ae36e";
+    private static final String URL = "https://api.myjson.com/bins/arw81";
     RecyclerView rv;
 
     @Override
@@ -77,11 +77,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onResponse(String response) {
                 GsonBuilder gsonBuilder = new GsonBuilder();
                 Gson gson = gsonBuilder.create();
-                StandardResolution[] standardResolutions =  gson.fromJson(String.valueOf(response.startsWith("StandardResolution")), StandardResolution[].class);
+                Data[] data = gson.fromJson(response,Data[].class);
+                rv.setAdapter(new adapter_main(getApplicationContext(),data));
+               /* StandardResolution[] standardResolutions =  gson.fromJson(String.valueOf(response.startsWith("StandardResolution")), StandardResolution[].class);
                 Likes[] likes = gson.fromJson(response,Likes[].class);
                 Comments[] comments = gson.fromJson(response,Comments[].class);
-                Caption[] captions = gson.fromJson(response,Caption[].class);
-                rv.setAdapter(new adapter_main(MainActivity.this,standardResolutions,likes,comments,captions));
+                Caption[] captions = gson.fromJson(response,Caption[].class);*/
+
             }
         }, new Response.ErrorListener() {
             @Override

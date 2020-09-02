@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.theparkar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/parking"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".History_Activity"></activity>
+        <activity android:name=".Main_Home_Activity" />
+        <activity android:name=".Book_Parking_Activity" />
+        <activity android:name=".Parking_Map_Layout" />
+        <activity android:name=".Parking_Rating" />
+        <activity android:name=".Parking_Information_Layout" />
+        <activity android:name=".Upload_Feedback_Activity" />
+        <activity android:name=".Login_State_Checker.Login_State_checker" />
+        <activity android:name=".Reset_Password_Activity" />
+        <activity
+            android:name=".Main_Home"
+            android:label="@string/title_activity_main__home" />
+        <activity android:name=".Register_Details_ACcivity" />
+        <activity android:name=".Register_activity" />
+        <activity android:name=".Deatils_Tab" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

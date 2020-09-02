@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="@drawable/background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lovely Professional University, Main Gate"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/book_parking_space_name_ckeckout"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="space id : 1 "
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/book_parking_space_id_checkout"/>
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/book_parking_image_checkout"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="left"
+            tools:src="@drawable/profile"
+            app:civ_border_color="#02914B"
+            app:civ_border_width="3dp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Check The Vehicle:"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/vehicle_checkin_info_checkout"
+        tools:text="Parker : Prateek Suman vehicle: Aveo  UVA vehicle number : BR-012347FD"        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Make sure to enter the duration of stay"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="please enter the duration of stay"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:id="@+id/duration_check_out"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="CheckOut"
+        android:background="@drawable/layout_draw">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/check_out"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Click here to check out"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+</LinearLayout>

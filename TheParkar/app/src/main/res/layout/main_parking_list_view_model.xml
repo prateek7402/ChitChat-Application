@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/layout_draw_new"
+    android:layout_height="wrap_content">
+
+   <androidx.coordinatorlayout.widget.CoordinatorLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+           android:orientation="vertical"
+           android:gravity="top">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="220dp"
+               tools:src="@drawable/pattern"
+               android:id="@+id/parking_main_image"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:orientation="vertical"
+           android:gravity="right|center"
+           android:background="@drawable/background"
+           android:layout_marginTop="220dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="right"
+               tools:text="Hey jbjbdjabjbdhjasn"
+               android:textColor="#000"
+               android:textSize="15dp"
+               android:id="@+id/parking_main_name"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="right"
+               android:layout_marginTop="10dp"
+               tools:text="Hey dnjksdncjkndskn"
+               android:textColor="#000"
+               android:textSize="15dp"
+               android:id="@+id/parking_main_details"/>
+
+
+       </LinearLayout>
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           xmlns:app="http://schemas.android.com/apk/res-auto"
+           android:layout_width="100dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="160dp"
+           android:layout_height="100dp"
+           android:layout_centerInParent="true"
+           android:layout_gravity="left"
+           android:src="@drawable/parking"
+           app:civ_border_color="#02914B"
+           app:civ_border_width="3dp" />
+
+
+   </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

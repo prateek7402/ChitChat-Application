@@ -1,12 +1,16 @@
-package com.example.thegithub;
+package com.example.lekhak;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.lekhak.MainActivity;
+import com.example.lekhak.R;
+
 public class SplashActivity extends AppCompatActivity {
     private final int SPLASH_DISPLAY_LENGTH = 1000;
+    String key = "163c8921bbaa4a4c93732de3aa236821";
    // public static final int RequestPermissionCode = 7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187181140706",
+    "firebase_url": "https://chit-chat-male.firebaseio.com",
+    "project_id": "chit-chat-male",
+    "storage_bucket": "chit-chat-male.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187181140706:android:bdd99e3a9a6dcc6f526cbb",
+        "android_client_info": {
+          "package_name": "com.example.thecrackchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187181140706-1942r4jd2srvsmq2p2dvrnrjhb562n46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJeCkRW6DS1jsLdt4tMorHFKdWUQDXdzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187181140706-0mhm6gf00t2gendrpkmubs5jqr0uclk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

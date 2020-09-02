@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".GoogleLogin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/colorwheel">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please provide us with your google login"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap on Google Logo to Proceed"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="15dp">
+    </TextView>
+
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="100dp"
+     android:src="@drawable/search"
+     android:layout_marginTop="50dp"
+     android:id="@+id/Login"
+     ></ImageView>
+
+</LinearLayout>

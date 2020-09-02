@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "637726089392",
+    "firebase_url": "https://techinshort-153df.firebaseio.com",
+    "project_id": "techinshort-153df",
+    "storage_bucket": "techinshort-153df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637726089392:android:e735f394f890025d",
+        "android_client_info": {
+          "package_name": "com.example.techinshorts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637726089392-6jv6fvekuq42jos02bhquo48cbv8iq9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP71t97q5S6sSJAZT7x_70fALdK-_jTWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637726089392-6jv6fvekuq42jos02bhquo48cbv8iq9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
